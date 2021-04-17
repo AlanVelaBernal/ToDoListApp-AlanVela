@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "358779705704",
+    "project_id": "todolistapp-b967d",
+    "storage_bucket": "todolistapp-b967d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358779705704:android:0765b76d3bc46418a21edd",
+        "android_client_info": {
+          "package_name": "com.example.todolistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358779705704-s1s2ckeshunemo4q12ttouc3lh2cap1g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.todolistapp",
+            "certificate_hash": "734e916d059ac66ded6be35d2ef29671c95d84f0"
+          }
+        },
+        {
+          "client_id": "358779705704-srfbjt2o98lutt4p9t2bn6vg5d8d2mhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIOCaMp1UrdZxmrF5Bli31BhcFw60bPpI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358779705704-srfbjt2o98lutt4p9t2bn6vg5d8d2mhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

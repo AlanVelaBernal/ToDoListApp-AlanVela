@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegistrationActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="149dp"
+        android:layout_height="155dp"
+        android:layout_margin="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/dark_blue"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email:"
+        android:id="@+id/email_signup"
+        android:backgroundTint="@color/bright_green"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password:"
+        android:inputType="textPassword"
+        android:id="@+id/password_signup"
+        android:backgroundTint="@color/bright_green"
+        />
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sign Up"
+        android:textColor="@color/dark_blue"
+        app:backgroundTint="@color/teal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log in"
+        android:gravity="center"
+        android:id="@+id/login_textview"
+        android:textColor="@color/dark_blue"/>
+
+</LinearLayout>
